@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #fff;
+}
+.wrapper {
+    height: 100vh;
+    background-image:url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative; 
+}
+.text-box {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+}
+.heading-primary {
+ color: #fff;
+
+ backface-visibility: hidden;
+}
+.heading-primary-mini{
+ display: block;
+ text-align: center;
+ font-size: 24px;
+ font-weight: 100;
+ letter-spacing: 3;
+ line-height:15px ;
+}
+.heading-primary-main {
+ display: block ;
+ font-size: 40px;
+ font-weight: 200;
+ letter-spacing: 5px;
+ line-height: 70px;
+ animation-name: moveInLeft;
+ animation-duration: 1s;
+ animation-timing-function: ease-out;
+}
+.heading-primary-sub{
+ display: block;
+ text-align: center;
+ font-size: 12px;
+ font-weight:100;
+ letter-spacing: 3px;
+ line-height:18px ; 
+ animation-name: moveInRight; 
+ animation-duration: 1s;
+ animation-timing-function: ease-out;
+}
+@keyframes moveInLeft {
+    0% {
+         opacity: 0;
+         transform: translateX(-100px);
+    }
+    80% {
+            transform: translateX(10px);
+    }
+    100% {
+           opacity: 1;
+           transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+         opacity: 0;
+         transform: translateX(100px);
+    }
+    80% {
+            transform: translateX(-10px);
+    }
+    100% {
+           opacity: 1;
+           transform: translate(0);
+    }
+}
+.btn:link,
+.btn:visited {
+     text-decoration: none; 
+     padding: 5px 10px; 
+     display: inline-block;     
+}
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.btn-primary {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
