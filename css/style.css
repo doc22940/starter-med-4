@@ -10,6 +10,12 @@ body{
     line-height: 1.7;
     color: #fff;
 }
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color:transparent;
+    font-size: 20px;
+}
 .wrapper {
     height: 100vh;
     background-image:url(../img/bg1.jpg);
@@ -101,10 +107,58 @@ body{
 .btn-primary {
     color: #fff;
 }
+.container {
+    border: red;
+    outline: red;
+}
+.card{
+    border: none;
+    font-size: 15px;
+    height: 0 auto;
+}
+.card-title{
+    font-size: 17px;
+    text-align: center;
+    width: auto;
+    color: rgba(21, 9, 187, 0.993);
+}
+.card-img-top{
+   width:90px ;
+   margin:5px auto ;
+}
+.card-text{
+    color: #333;
+    width: auto;
+}
+.dept {
+    background-color: rgb(232, 236, 238);
+    text-align: center;
+    line-height: 18px;
+    color: #202020;
+}
+.dept-text {
+    color: #585858;
+}
+.container-dept{
+    background-color: rgb(232, 236, 238); 
+}
 
-
-
-
+.depts:hover{
+    background: rgba(21, 9, 187, 0.993);
+    color: #333;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+.depts:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.change:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 200px;
+    font-style: italic;
+}
 
 
 
