@@ -121,20 +121,31 @@ body{
     text-align: center;
     width: auto;
     color: rgba(21, 9, 187, 0.993);
+    animation-name: moveInLeft; 
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
 }
 .card-img-top{
    width:90px ;
    margin:5px auto ;
+   animation-name: moveInRight; 
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
 }
 .card-text{
     color: #333;
     width: auto;
+    animation-name: moveInRight; 
+    animation-duration: 1s;
+   animation-timing-function: ease-out;
 }
 .dept {
     background-color: rgb(232, 236, 238);
     text-align: center;
-    line-height: 18px;
     color: #202020;
+    animation-name: moveInRight; 
+   animation-duration: 1s;
+   animation-timing-function: ease-in;
 }
 .dept-text {
     color: #585858;
@@ -142,7 +153,10 @@ body{
 .parts{
     background-color: rgb(232, 236, 238); 
 }
-
+ .depts {
+     border: black;
+    border-radius: 1px solid #333;
+ }
 .depts:hover{
     background: rgba(21, 9, 187, 0.993);
     color: #333;
