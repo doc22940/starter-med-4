@@ -129,7 +129,7 @@ body{
    width:90px ;
    margin:5px auto ;
    animation-name: moveInRight; 
-   animation-duration: 1s;
+   animation-duration: 2s;
    animation-timing-function: ease-in-out;
 }
 .card-text{
@@ -173,6 +173,66 @@ body{
     font-weight: 200px;
     font-style: italic;
 }
+.services{
+    text-align: center;
+    color: #333;
+    animation-name: moveInRight; 
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+.box {
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: #333;
+    text-align: left;
+    padding: 25px;
+    animation-name: moveInLeft; 
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    
+}
+li.check {
+     list-style: none;
+}
+li.check:not(:last-child){
+    margin-bottom: 10px;
+}
+li.check::before {
+    content: "\2611";
+    padding: 4px;
+}
+.box-title{
+    color: rgba(21, 9, 187, 0.993);
+    animation-name: moveInRight; 
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+.box-img{
+    width:90px ;
+    margin:5px auto ;
+    animation-name: moveInleftt; 
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+ }
+.box:hover{
+    background: rgba(21, 9, 187, 0.993);
+    color: #333;
+    transform: translateY(-3px);
+}
+.box:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
